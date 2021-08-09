@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Nunito:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+        integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            header{
+    height: 100vh;
+    width: 97vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1627032171075-ed4c3c0ea490?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+            nav{
+                box-shadow: 0px 1px 25px #fff;
+               
+            }
+            </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-expand-md  fixed-top r-nav sticky pb-0" style="background-color: #fff;">
+        <div class="container-fluid " style="margin-left: 5vw; width: 90vw;" !important>
+            <a href="#" class="navbar-brand" style="color: #e65f78;">Saumya</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId" id='navbtn'>
+                <span><i class="fas fa-bars hamburger"></i></span>
+            </button>
+            <div class=" collapse navbar-collapse " id="navbarId">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link text-dark">home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link text-dark">about</a>
+
+                    </li>
+             
+                    <li class="nav-item">
+                        <a href="#exp-class" class="nav-link text-dark">skills</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#cntct" class="nav-link text-dark">contact</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="container-fluid header-content">
+            <div class="row">
+                <div class="col text-center ">
+                    <div class="content-box">
+                        <h4>welcome!</h4>
+                        <h1>I'M <span class="element" style="color: #e65f78;font-weight: bolder;">SAUMYA SINGH BISHT</span></h1>
+                        <p>let's build something amazing together</p>
+                        <button class="btn" id="cv" >Download CV</button>
+                        <!-- <a href="#" class="btn">Download CV</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about r-p " id="about" style="background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))"
+        !important>
+        <div class="container">
+            <h2 class="text-center">about me</h2><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img2.jpg" class="img-fluid img-thumbnail mt-0" alt="profile picture">
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+
+                    <h4>hey! <span style="color: #e65f78;" !important>I'm Saumya Singh Bisht </span>
+                    </h4>
+                    <p>I'm a Android and Web Developer </p>
+
+                    <p>I enjoy taking complex problems and turning them in to simple and beautiful designs.
+                    </p>
+                    <p>I also love the logic and structure of coding and always strive to write elegant and efficient
+                        code , whether it be HTML,CSS,Jquerry or any other</p>
+                    <p>When I'm not coding , you'll find me in the gym or playing some outdoor games like volleyball
+                        etc.</p>
+                    <div>
+                        <ul class="List-inline">
+                            <li class="list-inline-item "><a href="#"><i class="fab fa-facebook-f" style="color:#e65f78 ;"></i></a></li>
+                            <li class="list-inline-item "><a href="#"><i
+                                        class="fab fa-github" style="color:#e65f78 ;"></i></a></li>
+                            <li class="list-inline-item "><a
+                                    href="#"><i
+                                        class="fab fa-linkedin" style="color:#e65f78 ;"></i></a></li>
+                            <li class="list-inline-item "><a href="#"><i
+                                        class="fab fa-instagram" style="color:#e65f78 ;"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="exp-class" id="exp-class" style="height:100%;">
+        <div class="container "><br><br><br><br><br><br>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <h3>My Skills</h3>
+                </div>
+
+                <div class="col-md-6 ">
+                    <label>Html</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">70</div>
+                    </div>
+                    <label>Javascript</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">80%</div>
+                    </div>
+                    <label>css</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0"> 75%</div>
+                    </div>
+                    <label>bootstrap</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 86%;background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">86%</div>
+                    </div>
+                    <label>React</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 92%;background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">92%</div>
+                    </div>
+                    <label>Jquerry</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">90%</div>
+                    </div>
+                    <label>Firebase</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 87%;background-color: #e65f78;" aria-valuemax="100"
+                            aria-valuenow="0" aria-valuemin="0">87%</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><br><br><br><br>
+
+    <section class="contact" style="background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2))">
+        <div class="container m-lg-auto ">
+            <br><br><br><br><br>
+            <h1 class=" text-center" id="cntct"> contact me</h1><br><br>
+            <form action=""></form>
+            <div class="from-group">
+                <label for="user">Your Name: </label>
+                <input type="text" name="" id="user" class="form-control border-dark" >
+            </div><br>
+            <div class="from-group">
+                <label for="user">Your Email: </label>
+                <input type="email" name="" id="user" class="form-control border-dark" >
+            </div><br>
+            <div class="from-group">
+                <label for="email">Message: </label>
+                <input type="email" name="" id="user" class="form-control border-dark" >
+            </div><br><br>
+            <div class="sendbtn text-center">
+                <button class="btn clickme border-dark" >send</button>
+                <!-- <a href="#" class="btn"  onclick="popUp()">Send</a> -->
+            </div>
+            </form><br><br>
+            <p class="text-center">Thank you for the time you spent with me . </p>
+
+        </div><br><br><br><br><br><br>
+    </section>
+</body>
+</html>
